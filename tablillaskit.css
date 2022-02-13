@@ -42,7 +42,7 @@ font-family: 'Rowdies', cursive;
  margin-top:3px;
 }
 
-.kittyfondo .datis .kittyicon {
+.datis i{
   color: #758527;
   -webkit-text-stroke: .5px #758527;
     color: transparent;
@@ -60,7 +60,7 @@ font-family: 'Rowdies', cursive;
       font-weight: normal;
 }
 
-.kittyfondo sc {
+.kittyfondo span {
   color: #758527;
 }
 
@@ -72,13 +72,21 @@ font-family: 'Rowdies', cursive;
   margin-top: 7px;
 }
 
-.kittyfondo .datis .kittyicon1 {
+.datis.abajo {
+   text-transform: uppercase;
+ font-size: 8px;
+ letter-spacing: 3px;
+ text-align: center;
+ margin-top:3px;
+ margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.datis i {
   color: #758527;
   -webkit-text-stroke: .5px #758527;
     color: transparent;
     text-shadow: -1px -1px 3px #758527; 
   font-size: 8px; 
     margin: 0 2px;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
