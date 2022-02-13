@@ -1,1 +1,73 @@
 
+.kittyfondo{
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  background: #020202;
+  border: 3px solid #0c0c0c;
+  font-size: 13px;
+  color: #adadad;
+}
+
+/**APERTURA**/
+.kittyfondo .inic {
+    font-weight: bolder;
+   text-align: center;
+    letter-spacing: 4px;
+    font-size: 18px;
+font-family: 'Rowdies', cursive;
+    -webkit-text-stroke: .5px #758527;
+    color: transparent;
+    border-bottom: 2px solid #758527;
+    padding-bottom: 3px;
+  border-top: 2px solid #758527;
+  padding-top: 3px;
+}
+
+.kittyfondo .full {
+ font-family: 'Rowdies', cursive;
+  color: #758527;
+  font-weight: normal;
+   text-align: center;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+  
+.kittyfondo .datis {
+ text-transform: uppercase;
+ font-size: 8px;
+ letter-spacing: 3px;
+ text-align: center;
+ margin-top:3px;
+}
+
+.kittyfondo .datis .kittyicon {
+  color: #758527;
+  -webkit-text-stroke: .5px #758527;
+    color: transparent;
+    text-shadow: -1px -1px 3px #758527; 
+  font-size: 8px; 
+    margin: 0 2px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.kittypost {
+    margin-top: 5px;
+  line-height: 1.4em;
+  text-align: justify;
+      font-weight: normal;
+}
+
+.kittyfondo sc {
+  color: #758527;
+}
+
+
+/**RESPUESTA**/ 
+.kittyfondo .resp {
+    border-bottom: 2px solid #758527;
+  border-top: 2px solid #758527;
+  margin-top: 15px;
+}
