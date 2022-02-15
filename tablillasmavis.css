@@ -90,15 +90,23 @@
 }
 
 /**RESPUESTA**/
-/**DATOS**/
+.rsimple {
+  background: #0c0c0c; 
+  padding: 10px 10px; 
+  margin: -1px -1px 0 -1px; 
+  border-bottom: 2px solid #6e9b9e;
+  padding-bottom: 10px;
+  border-top: 2px solid #6e9b9e;
+  padding-top: 10px;
+  margin-bottom: 5px;
+ }
+  
  .resp { 
  display: inline-block;
  vertical-align: middle; 
  width: calc((100%) - (57px));
  text-align: center; 
- margin-top: -17px;
   margin-left: 55px;
-  margin-bottom: -17px;
  font: 7px calibri; 
  text-transform: uppercase; 
  color: white;
