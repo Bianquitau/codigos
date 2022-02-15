@@ -1,0 +1,113 @@
+/**BASE**/
+.mavisfondo{
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #020202;
+  border: 3px solid #0c0c0c;
+  font-size: 13px;
+  color: #adadad;
+}
+
+/**ENCABEZADO, LÍNEAS, CIRCULO E ICONO**/
+.mheader {
+  background: #0c0c0c; 
+  padding: 10px 10px; 
+  margin: -1px -1px 0 -1px; 
+  border-bottom: 2px solid #6e9b9e;
+  padding-bottom: 5px;
+  border-top: 2px solid #6e9b9e;
+  padding-top: 5px;
+ }
+
+.mheader i {
+  display: inline-block; 
+  vertical-align: middle;
+  height: 50px; 
+  width: 50px; 
+  border-radius: 100%; 
+  background: rgba(151, 189, 191, .3); 
+  -webkit-text-stroke: 1px #467275;
+  color: transparent;
+  text-shadow: -1px -1px 3px #6e9b9e; 
+  box-sizing: border-box;
+  padding-top: 12px;
+  font-size: 25px;
+  margin-top: 10px;
+} 
+
+/**TITULO**/
+.titulo { 
+ display: inline-block;
+ vertical-align: middle; 
+ width: calc((100%) - (57px));
+ text-align: center; 
+ margin-left: 5px;
+ margin-top: -10px;
+ font: 15px calibri; 
+ text-transform: uppercase; 
+ color: white;
+ letter-spacing: 10px; 
+ text-shadow: -1px -1px 3px #6e9b9e; 
+}
+
+/**DATOS**/
+.datis { 
+ display: inline-block;
+ vertical-align: middle; 
+ width: calc((100%) - (57px));
+ text-align: center; 
+ margin-top: -20px;
+  margin-left: 55px;
+  margin-bottom: 10px;
+ font: 7px calibri; 
+ text-transform: uppercase; 
+ color: white;
+ letter-spacing: 4px; 
+ text-shadow: 1px 1px 0px rgba(0,0,0,0.18); 
+}
+
+.datis .full{
+ text-align: center; 
+  -webkit-text-stroke: 1px #467275;
+  color: transparent;
+  font-size: 7px;
+}
+
+/**POST**/
+.mavispost {
+    margin-top: 8px;
+  line-height: 1.4em;
+  text-align: justify;
+      font-weight: normal;
+  padding: 10px;   
+  }
+
+.mavispost span {
+  color: #6e9b9e;
+}
+
+
+/**DATOS**/
+.resp { 
+ display: inline-block;
+ vertical-align: middle; 
+ width: calc((100%) - (57px));
+ text-align: center; 
+ margin-top: -20px;
+  margin-left: 55px;
+  margin-bottom: -17px;
+ font: 7px calibri; 
+ text-transform: uppercase; 
+ color: white;
+ letter-spacing: 4px; 
+ text-shadow: 1px 1px 0px rgba(0,0,0,0.18); 
+}
+
+.resp .full{
+ text-align: center; 
+  -webkit-text-stroke: 1px #467275;
+  color: transparent;
+  font-size: 7px;
+}
