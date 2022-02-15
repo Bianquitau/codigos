@@ -19,6 +19,7 @@
   padding-bottom: 5px;
   border-top: 2px solid #6e9b9e;
   padding-top: 5px;
+  margin-bottom: 5px;
  }
 
 .mheader i {
@@ -88,9 +89,20 @@
   color: #6e9b9e;
 }
 
+/**RESPUESTA**/
+.mheader .abajo {
+  background: #0c0c0c; 
+  padding: 15px 10px; 
+  margin: -1px -1px 0 -1px; 
+  border-bottom: 2px solid #6e9b9e;
+  padding-bottom: 5px;
+  border-top: 2px solid #6e9b9e;
+  padding-top: 5px;
+  margin-bottom: 5px;
+ }
 
 /**DATOS**/
-.resp { 
+.mheader .resp { 
  display: inline-block;
  vertical-align: middle; 
  width: calc((100%) - (57px));
