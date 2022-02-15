@@ -13,7 +13,7 @@
 /**ENCABEZADO, LÍNEAS, CIRCULO E ICONO**/
 .mheader {
   background: #0c0c0c; 
-  padding: 15px 10px; 
+  padding: 10px 10px; 
   margin: -1px -1px 0 -1px; 
   border-bottom: 2px solid #6e9b9e;
   padding-bottom: 5px;
@@ -92,7 +92,7 @@
 /**RESPUESTA**/
 .mheader .abajo {
   background: #0c0c0c; 
-  padding: 15px 10px; 
+  padding: 10px 10px; 
   margin: -1px -1px 0 -1px; 
   border-bottom: 2px solid #6e9b9e;
   padding-bottom: 5px;
