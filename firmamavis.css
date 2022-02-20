@@ -1,0 +1,64 @@
+/*CAJITA*/
+.mavs {
+  width: 270px;
+  height: 180px; 
+  outline: 4px double #6e9b9e;
+  border: 2px solid #467275; 
+  margin: 0 auto;
+}
+
+/*HOVER*/
+.mavsh {
+  width: 265px; 
+  height: 175px; 
+  margin: 0 auto; 
+  background: #000000;  
+  display: flex; 
+  justify-content: space-around; 
+  opacity: 0; 
+  transition: 1s;
+}
+
+/*TEXTO E ICONO*/
+.mavsh .mavsl{
+  font-family: calibri; 
+  color: #ffffff; 
+  text-align: justify; 
+  text-indent: 0cm;
+    line-height: 1em;
+  font-size: 13px;
+letter-spacing: 1px;
+  margin-top: 115px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0 auto;
+}
+
+.mavsh i{
+  color: #ffffff;
+    font-size: 32px;
+  -webkit-text-stroke: 1px #467275;
+  text-shadow: -1px -1px 5px #467275; 
+   opacity: 0.5;
+  margin-top: -50px;
+  animation: calavera 4s linear infinite;
+}
+
+/*HOVER*/
+.mavs:hover .mavsh {
+ opacity: 0.5;
+  transition: 1s;
+}
+
+@keyframes calavera {
+ 0%, 30%, 60%, 60%, 90% {
+  opacity: 1;
+  }
+  
+  10%, 40%, 70%, 100% {
+ opacity: .5;
+ }
+ 20%, 50%, 80%, {
+opacity: 0;
+}
+         }
