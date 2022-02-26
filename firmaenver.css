@@ -1,0 +1,86 @@
+/*CAJITA*/
+.enver {
+  width: 280px;
+  height: 200px; 
+  border: 3px solid #341418; 
+  outline: 2px double #341418;
+  margin: 0 auto;
+}
+
+
+/*HOVER*/
+.enver .enverh {
+  width: 275px; 
+  height: 195px; 
+  margin: 0 auto; 
+  background: #000000;  
+  display: flex; 
+  opacity: 0; 
+  transition: 1s;
+  flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.enver:hover .enverh {
+    opacity: .5;
+    transition: 2s;
+}
+
+.enverh span {
+    font-size: 25px;
+   text-shadow: 2px 3px 0px #341418;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bolder;
+     margin: 0 auto;
+  -webkit-text-stroke: 0.5px #341418;
+    color: #ffff;
+   text-transform: uppercase; 
+   letter-spacing: 4px;
+    padding-top: -5px;
+  margin-top: -10px;
+}
+
+.enverh p {
+font-size: 12px;
+color: #fff;
+text-align: center;
+    margin: 0 auto;
+  padding: 5px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+/*ANIMACIÓN*/
+.enverh i{
+  display: block;
+  color: #ffffff;
+    font-size: 50px;
+  -webkit-text-stroke: 3px #341418;
+   opacity: 5;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  animation: fire 4s linear infinite;
+  transition: all ease-in-out 0.8s;
+}
+
+.enverh:hover i{
+  transition: all ease-in-out 0.6s;
+  opacity: 0.4;
+  transition-delay: 0.3s;
+}
+
+@keyframes fire {
+ 0%, 30%, 60%, 60%, 90% {
+  opacity: 1;
+  }
+  
+  10%, 40%, 70%, 100% {
+ opacity: .5;
+ }
+ 20%, 50%, 80%, {
+opacity: 0;
+}
+         }
