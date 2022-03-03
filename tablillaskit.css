@@ -4,10 +4,9 @@
   width: 100%;
   margin: 0 auto;
   padding: 30px;
-  background: #020202;
+  background: var(--fondo-base);
   border: 3px solid #0c0c0c;
   font-size: 13px;
-  color: #adadad;
 }
 
 /**APERTURA**/
@@ -28,7 +27,6 @@ font-family: 'Rowdies', cursive;
 .bf1 .full {
  font-family: 'Rowdies', cursive;
   color: #758527;
-  font-weight: normal;
    text-align: center;
     letter-spacing: 4px;
     font-size: 18px;
@@ -56,7 +54,6 @@ font-family: 'Rowdies', cursive;
     margin-top: 5px;
   line-height: 1.4em;
   text-align: justify;
-      font-weight: normal;
 }
 
 .bf1 strong {
@@ -76,9 +73,7 @@ font-family: 'Rowdies', cursive;
  font-size: 8px;
  letter-spacing: 3px;
  text-align: center;
- margin-top:3px;
- margin-top: 5px;
-  margin-bottom: 5px;
+ margin: 4px 0;
 }
 
 .datis i {
