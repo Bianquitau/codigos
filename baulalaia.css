@@ -1,0 +1,191 @@
+#alaiabaul{
+  width: 480px;
+  padding; 10px;
+  background: black;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*titulo & subtítulo*/
+.alaiatit {
+  padding: 10px 20px 0px 0px;
+  font: 700 30px arial;
+  letter-spacing: 3px;
+  color: #dddd;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.alaiatit b {
+  font: 700 30px arial;
+  color: #7b668f;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+}
+
+.alaiasub {
+  padding: 0px 0px 20px 220px;
+  font-family: garamond;
+  font-size: 10px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  color: white;
+  text-aling: right;
+}
+
+/*Imagen*/
+.img {
+  width: 450px;
+  height: 200px;
+  background: url("https://i.imgur.com/gX5pezL.png");
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+/*Datitos & cuadros arriba*/
+.datis {
+  width: 440px;
+  margin-left: 20px;
+  padding-top: 10px;  
+  margin-bottom: 10px;  
+  blackground: white;
+  position: relative;
+}
+
+.datis .datisr {
+  width: 215px;
+  vertical-aling: top;
+  padding: 15px 10px;
+  display: inline-block;
+  background-color: rgba(123, 102, 143, 0.5);
+  margin-bottom: 10px;
+  opacity: 1;
+  transition: 2s;
+}
+
+.datisr:hover {
+opacity: 0.5;
+transition: 2s;
+}
+
+.datis .datisl {
+  width: 215px;
+  padding: 15px 10px;
+  margin-left: 10px;
+  vertical-aling: top;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: rgba(123, 102, 143, 0.5);
+  opacity: 1;
+  transition: 2s;
+}
+
+.datisl:hover {
+opacity: 0.5;
+transition: 2s;
+}
+
+/*linea*/
+.line1 {
+  width: 210px;
+  height: 2px;
+  background-color: rgba(123, 102, 143, 0.5);
+  margin-left: 20px;
+}
+
+.line2 {
+  width: 210px;
+  height: 2px;
+  background-color: rgba(123, 102, 143, 0.5);
+  margin-left: 250px;
+  margin-top: -22px;
+  margin-bottom: 10px;
+}
+
+/*Iconos*/
+.icon {
+  font-size: 25px; 
+  color: #7b668f; 
+  text-align: center; 
+  margin: 0 auto; 
+  position: relative; 
+  padding-left: 6px;
+  top: -15px; 
+  width: 30px; 
+  height: 20px;
+  background: black; 
+}
+
+/*letras*/
+.datis .tit {
+  font-family: arial;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+  color: #bbb;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+.datis .auth {
+  font-family: garamond;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/*Datitos & cuadros abajo*/
+.datis {
+  width: 440px;
+  margin-left: 20px;
+  padding-top: 10px;  
+  margin-bottom: 10px;  
+  blackground: white;
+  position: relative;
+}
+
+.datis .datisr2 {
+  width: 215px;
+  vertical-aling: top;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: rgba(123, 102, 143, 0.5);
+  margin-bottom: 10px;
+}
+
+.datis .datisl2 {
+  width: 215px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  vertical-aling: top;
+  display: inline-block;
+  background-color: rgba(123, 102, 143, 0.5);
+  margin-bottom: 10px;
+}
+
+
+/*Palette*/
+.panc {
+  width: 97.5px;
+  height: 97.5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.panhex {
+  width: 87.5px;
+  color: #ddd;
+  text-align: center;
+  font-family: garamond;
+  display: inline-block; 
+  vertical-align: top;
+  margin-right: 10px;
+  font-size: 11px;
+  padding: 5px;
+}
