@@ -1,5 +1,5 @@
 #alaiabaul{
-  width: 480px;
+  width: 450px;
   padding; 10px;
   background: black;
   position: relative;
@@ -26,7 +26,7 @@
 }
 
 .alaiasub {
-  padding: 0px 0px 20px 220px;
+  padding: 0px 0px 20px 190px;
   font-family: garamond;
   font-size: 10px;
   text-transform: uppercase;
@@ -38,7 +38,7 @@
 
 /*Imagen*/
 .img {
-  width: 450px;
+  width: 420px;
   height: 200px;
   background: url("https://i.imgur.com/gX5pezL.png");
   margin: 0 auto;
@@ -47,16 +47,16 @@
 
 /*Datitos & cuadros arriba*/
 .datis {
-  width: 440px;
+  width: 410px;
   margin-left: 20px;
-  padding-top: 10px;  
-  margin-bottom: 10px;  
+  padding-top: 5px;  
+  margin-bottom: 5px;  
   blackground: white;
   position: relative;
 }
 
 .datis .datisr {
-  width: 215px;
+  width: 200px;
   vertical-aling: top;
   padding: 15px 10px;
   display: inline-block;
@@ -72,7 +72,7 @@ transition: 2s;
 }
 
 .datis .datisl {
-  width: 215px;
+  width: 200px;
   padding: 15px 10px;
   margin-left: 10px;
   vertical-aling: top;
@@ -90,19 +90,19 @@ transition: 2s;
 
 /*linea*/
 .line1 {
-  width: 210px;
+  width: 205px;
   height: 2px;
   background-color: rgba(123, 102, 143, 0.5);
   margin-left: 20px;
 }
 
 .line2 {
-  width: 210px;
+  width: 205px;
   height: 2px;
   background-color: rgba(123, 102, 143, 0.5);
-  margin-left: 250px;
+  margin-left: 225px;
   margin-top: -22px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /*Iconos*/
@@ -141,16 +141,16 @@ transition: 2s;
 
 /*Datitos & cuadros abajo*/
 .datis {
-  width: 440px;
+  width: 410px;
   margin-left: 20px;
-  padding-top: 10px;  
-  margin-bottom: 10px;  
+  padding-top: 5px;  
+  margin-bottom: 5px;  
   blackground: white;
   position: relative;
 }
 
 .datis .datisr2 {
-  width: 215px;
+  width: 200px;
   vertical-aling: top;
   padding: 5px 10px;
   display: inline-block;
@@ -159,7 +159,7 @@ transition: 2s;
 }
 
 .datis .datisl2 {
-  width: 215px;
+  width: 200px;
   padding: 5px 10px;
   margin-left: 10px;
   vertical-aling: top;
@@ -171,8 +171,8 @@ transition: 2s;
 
 /*Palette*/
 .panc {
-  width: 97.5px;
-  height: 97.5px;
+  width: 95.5px;
+  height: 95.5px;
   display: inline-block;
   vertical-align: top;
   margin-right: 10px;
