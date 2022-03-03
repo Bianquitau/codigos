@@ -1,5 +1,5 @@
 
-.kittyfondo{
+.bf1{
   max-width: 450px;
   width: 100%;
   margin: 0 auto;
@@ -11,7 +11,7 @@
 }
 
 /**APERTURA**/
-.kittyfondo .inic {
+.bf1 .inic {
     font-weight: bolder;
    text-align: center;
     letter-spacing: 4px;
@@ -25,7 +25,7 @@ font-family: 'Rowdies', cursive;
   padding-top: 3px;
 }
 
-.kittyfondo .full {
+.bf1 .full {
  font-family: 'Rowdies', cursive;
   color: #758527;
   font-weight: normal;
@@ -34,7 +34,7 @@ font-family: 'Rowdies', cursive;
     font-size: 18px;
 }
   
-.kittyfondo .datis {
+.bf1 .datis {
  text-transform: uppercase;
  font-size: 8px;
  letter-spacing: 3px;
@@ -59,13 +59,13 @@ font-family: 'Rowdies', cursive;
       font-weight: normal;
 }
 
-.kittyfondo strong {
+.bf1 strong {
   color: #758527;
 }
 
 
 /**RESPUESTA**/ 
-.kittyfondo .resp {
+.bf1 .resp {
     border-bottom: 2px solid #758527;
   border-top: 2px solid #758527;
   margin-top: 7px;
