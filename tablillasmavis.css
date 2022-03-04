@@ -1,18 +1,17 @@
 /**BASE**/
-.mavisfondo{
-  max-width: 450px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  background: #020202;
-  border: 3px solid #0c0c0c;
-  font-size: 13px;
-  color: #adadad;
+.bf1 {
+    background: var(--fondo-base);
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 14px;
 }
 
 /**ENCABEZADO, LÍNEAS, CIRCULO E ICONO**/
 .mheader {
-  background: #0c0c0c; 
   padding: 10px 10px; 
   margin: -1px -1px 0 -1px; 
   border-bottom: 2px solid #6e9b9e;
@@ -90,7 +89,6 @@
 
 /**RESPUESTA**/
 .rsimple {
-  background: #0c0c0c; 
   padding: 10px 10px; 
   margin: -1px -1px 0 -1px; 
   border-bottom: 2px solid #6e9b9e;
