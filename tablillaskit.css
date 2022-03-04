@@ -1,12 +1,13 @@
 
-.bf1{
-  max-width: 430px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px;
-  background: var(--fondo-base);
-  border: 3px solid #0c0c0c;
-  font-size: 13px;
+.bf1 {
+    background: var(--fondo-base);
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 14px;
 }
 
 /**APERTURA**/
@@ -52,8 +53,6 @@ font-family: 'Rowdies', cursive;
 
 .kittypost {
     margin-top: 5px;
-  line-height: 1.4em;
-  text-align: justify;
 }
 
 .bf1 strong {
