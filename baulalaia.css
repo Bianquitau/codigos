@@ -19,7 +19,7 @@
 
 .alaiatit b {
   font: 700 30px arial;
-  color: #7b668f;
+  color: var(--alaia);
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-thickness: 1px;
@@ -108,7 +108,7 @@ transition: 2s;
 /*Iconos*/
 .icon {
   font-size: 25px; 
-  color: #7b668f; 
+  color: var(--alaia); 
   text-align: center; 
   margin: 0 auto; 
   position: relative; 
