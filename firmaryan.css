@@ -1,0 +1,138 @@
+/*CAJITA*/
+.ryan {
+  width: 280px;
+  height: 230px; 
+  border: 4px ridge black; 
+  outline: 3px groove #251e2b99;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*HOVER 38 - 38*/
+.ryanh1 {
+ width: 290px; 
+ height: 38px; 
+ margin: 0 auto; 
+ margin-left: -200px;
+ background-color: rgba(000, 000, 000, 0.5); 
+ opacity: 0;
+ transition: 1s;
+ justify-content: right;
+}
+
+.ryan:hover .ryanh1 {
+  margin-left: 0px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.ryanh3 {
+ width: 290px; 
+ height: 38px; 
+ margin: 0 auto; 
+ margin-right: -200px;
+ background-color: rgba(000, 000, 000, 0.5); 
+ opacity: 0;
+ transition: 1s;
+ justify-content: right;
+}
+
+.ryan:hover .ryanh3 {
+ margin-right: 0px;
+ opacity: 1;
+ transition: 0.5s;
+}
+
+/*HOVER 78*/
+.ryanh2 {
+ width: 290px; 
+ height: 78px; 
+ margin: 0 auto; 
+ margin-left: -200px;
+ background-color: rgba(37, 30, 43, 0.5);
+ opacity: 0;
+ transition: 1s;
+ justify-content: right;
+}
+
+.ryan:hover .ryanh2 {
+  margin-left: 0px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/*HOVER 38-38*/
+.ryanh4 {
+ width: 290px; 
+ height: 38px; 
+ margin: 0 auto; 
+ margin-right: -200px;
+ background-color: rgba(000, 000, 000, 0.5); 
+ opacity: 0;
+ transition: 1s;
+ justify-content: right;
+}
+
+.ryan:hover .ryanh4 {
+  margin-right: 0px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.ryanh5 {
+ width: 290px; 
+ height: 38px; 
+ margin: 0 auto; 
+ margin-left: -200px;
+ background-color: rgba(000, 000, 000, 0.5); 
+ opacity: 0;
+ transition: 1s;
+ justify-content: right;
+}
+
+.ryan:hover .ryanh5 {
+  margin-left: 0px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/*LETRAS*/
+.ryanh2 .letter {
+  font-size: 20px;
+  text-shadow: 2px 3px 0px #251e2b99;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bolder;
+  margin: 0 auto;
+  margin-left: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  -webkit-text-stroke: 1px #251e2b99;
+  color: #ffff;
+  text-transform: uppercase; 
+  letter-spacing: 4px;
+}
+
+.ryanh2 p {
+ font-size: 6.5px;
+ text-align: justify;
+ margin: 0 auto;
+ padding-left: 10px;
+ padding-right: 20px;
+ margin-bottom: 5px;
+ margin-top: 5px;
+ font-family: 'Fjalla One', sans-serif;
+ color: #ffff;
+ text-transform: uppercase; 
+ letter-spacing: 2px;
+}
+
+/*LINEA*/
+.ryan-line {
+  width: 200px; 
+  height: 2px; 
+  background: #251e2b99; 
+  margin: 0 auto;
+  margin-left: 40px;
+}
+
+
