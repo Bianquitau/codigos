@@ -23,7 +23,7 @@
 .ryan:hover .ryanh1 {
   margin-left: 0px;
   opacity: 1;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .ryanh3 {
@@ -40,7 +40,7 @@
 .ryan:hover .ryanh3 {
  margin-right: 0px;
  opacity: 1;
- transition: 0.5s;
+ transition: 1s;
 }
 
 /*HOVER 78*/
@@ -58,7 +58,7 @@
 .ryan:hover .ryanh2 {
   margin-left: 0px;
   opacity: 1;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 /*HOVER 38-38*/
@@ -76,7 +76,7 @@
 .ryan:hover .ryanh4 {
   margin-right: 0px;
   opacity: 1;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .ryanh5 {
@@ -93,7 +93,7 @@
 .ryan:hover .ryanh5 {
   margin-left: 0px;
   opacity: 1;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 /*LETRAS*/
