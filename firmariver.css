@@ -42,7 +42,154 @@
   transition: all 0.7s ease-in-out;
   color: #ccc;
   }
+#riverfirm {
+  width: 320px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  border: 10px solid #841413cc;
+  outline: 4px double #000000;
+  outline-offset: -8px;
+ }
 
+.riverimg {
+  width: 320px; 
+  height: 250px; 
+  transition: all 0.5s ease-in-out; 
+  transform: translateY(-20px);
+}
+
+#riverfirm:hover .riverimg{
+  transition: all 0.5s ease-in-out; 
+  filter: brightness(55%) grayscale(45%);
+  transform: translateY(-50px);
+}
+
+
+/*TEXTO ABAJO*/
+.rivertxt1{
+  width: 310px;
+  top: 160px;
+  margin: 5px;
+  position: absolute;
+  font-size: 9px;
+  font-family: calibri;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.7s ease-in-out;
+  background-color: rgba(132, 20, 19, 0.3);
+}
+
+#riverfirm:hover .rivertxt1{
+  top: 224px;
+  transition: all 0.7s ease-in-out;
+  color: #ccc;
+  }
+
+.rivertxt1:before{
+width: 50px;
+  height: 0.5px;
+  background: #000000;
+  content: ' ';
+  display: block;
+margin-left: 130px;
+margin-bottom: 2px;
+  transition: all 0.5s ease-in-out;
+  }
+
+#riverfirm:hover .rivertxt1:before{
+  width: 100px;
+  margin-left: 105px;
+}
+
+.rivertxt1:after{
+width: 50px;
+  height: 0.5px;
+  background: #000000;
+  content: ' ';
+  display: block;
+margin-left: 130px;
+  margin-top: 2px;
+  transition: all 0.5s ease-in-out;
+  }
+
+#riverfirm:hover .rivertxt1:after{
+  width: 100px;
+  margin-left: 105px;
+}
+
+
+
+/*TEXTO ARRIBA*/
+.rivertxt2{
+  width: 310px;
+  top: 230px;
+  margin: 5px;
+  position: absolute;
+  font-size: 9px;
+  font-family: calibri;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.7s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.rivertxt2 b{
+  background-color: rgba(132, 20, 19, 0.8);
+}
+
+.rivertxt2  i{
+  color: #841413cc;
+  width: 20px;
+  height: 20px; 
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-bottom: 12px;
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: -1px -1px 5px #000000; 
+  opacity: 1;
+  margin-top: 3px;
+}
+
+#riverfirm:hover .rivertxt2{
+  top: 135px;
+  transition: all 0.7s ease-in-out;
+  }
+
+.rivertxt2:before{
+width: 50px;
+  height: 0.5px;
+  background: #841413cc;
+  content: ' ';
+  display: block;
+margin-left: 130px;
+margin-bottom: 1px;
+  transition: all 0.5s ease-in-out;
+  }
+
+#riverfirm:hover .rivertxt2:before{
+  width: 100px;
+  margin-left: 105px;
+}
+
+.rivertxt2:after{
+width: 50px;
+  height: 0.5px;
+  background: #841413cc;
+  content: ' ';
+  display: block;
+margin-left: 130px;
+  margin-top: 2px;
+  transition: all 0.5s ease-in-out;
+  }
+
+#riverfirm:hover .rivertxt2:after{
+  width: 100px;
+  margin-left: 105px;
+}
 .rivertxt1:before{
 width: 50px;
   height: 0.5px;
