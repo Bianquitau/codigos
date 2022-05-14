@@ -1,0 +1,99 @@
+#riverfirm {
+  width: 310px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  border: 10px solid #841413cc;
+  outline: 5px double #000000;
+  outline-offset: -8px;
+ }
+
+.riverimg {
+  width: 320px; 
+  height: 250px; 
+  transition: all 0.5s ease-in-out; 
+  transform: translateY(-20px);
+}
+
+#riverfirm:hover .riverimg{
+  transition: all 0.5s ease-in-out; 
+  filter: brightness(55%) grayscale(45%);
+  transform: translateY(-50px);
+}
+
+
+/*TEXTO*/
+.rivertxt{
+  width: 125px;
+  top: 182px;
+  left: 930px;
+  margin: 5px;
+  position: absolute;
+  font-size: 9px;
+  font-family: calibri;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 1s ease-in-out;
+  background-color: rgba(132, 20, 19, 0.5);
+}
+
+#riverfirm:hover .rivertxt{
+  left: 785px;
+  transition: all 1s ease-in-out;
+  color: #ccc;
+  }
+
+.rivertxt:before{
+width: 20px;
+  height: 0.5px;
+  background: black;
+  content: ' ';
+  display: block;
+margin-left: 130px;
+margin-bottom: 1px;
+  transition: all 0.5s ease-in-out;
+  }
+
+#riverfirm:hover .rivertxt:before{
+  width: 50px;
+  margin-left: 40px;
+}
+
+.rivertxt:after{
+width: 20px;
+  height: 0.5px;
+  background: black;
+  content: ' ';
+  display: block;
+margin-left: 130px;
+  margin-top: 1px;
+  transition: all 0.5s ease-in-out;
+  }
+
+#riverfirm:hover .rivertxt:after{
+  width: 50px;
+  margin-left: 40px;
+}
+
+/*NOMBRE DERECHA*/
+#riverfirm .rivernomb {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  color: #841413cc;
+  background-size: cover;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #000000;
+  line-height: 100%;
+  margin-top: -80px;
+  margin-left: 320px;
+  position: absolute;
+  z-index: 9;
+  transition: all 1s ease-in-out;
+}
+
+#riverfirm:hover .rivernomb {
+  margin-left: 5px;
+  opacity: 1;
+  transition: 1s;
+}
