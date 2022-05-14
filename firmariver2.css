@@ -3,7 +3,7 @@
   height: 180px;
   margin: auto;
   overflow: hidden;
-  border: 10px solid #841413cc;
+  border: 10px solid rgba(132, 20, 19, 1);
   outline: 5px double #000000;
   outline-offset: -8px;
  }
