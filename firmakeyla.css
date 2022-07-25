@@ -1,6 +1,6 @@
 #keyla-f {
   margin: auto;
-  width: 340px;
+  width: 300px;
   height: 200px;
   background: #111;
   justify-content: center;
@@ -68,7 +68,7 @@
 
 /**BOX**/
 #keyla-f .box {
-  width: 340px;
+  width: 320px;
   height: 200px;
   background: rgba(65,101,118,2);
   transform: translateX(-415px);
@@ -79,7 +79,7 @@
 #keyla-f:hover .box {
   transform: translateX(0px);
   transition: all 0.7s ease-in-out;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 /*TEXTO*/
@@ -89,9 +89,9 @@
   text-align: justify;
   margin: 0 auto;
   padding-top: 152px;
-  padding-left: 40px;
-  padding-right: 35px;
-  color: #ffff;
+  padding-left: 20px;
+  padding-right: 50px;
+  color: rgba(0,0,0,1);
   text-transform: uppercase; 
   letter-spacing: 4px;
 }
@@ -100,19 +100,20 @@
 #keyla-f .line {
   width: 200px; 
   height: 1px; 
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid white;
   margin: 0 auto;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 
 /*PRUEBA LETRAS*/
 #keyla-f span {
   font-weight: bolder;
-  color: #ffff;
+  color: rgba(250,250,250,1);
   text-shadow: 1px 1px 0px blue;
   font-family: 'Fjalla One', sans-serif;
   -webkit-text-stroke: 0.5px black;
   text-transform: uppercase; 
   letter-spacing: 2px;
 }
+
