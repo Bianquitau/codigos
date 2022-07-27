@@ -9,13 +9,13 @@
   position: relative;
   overflow: hidden;
   outline-offset: -7px; 
-  outline: 3px solid #416576;
+  outline: 2px solid #416576;
 }
 
  /**IZQUIERDA**/
 #keyla-f .circleL {
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   border-top: 2px solid transparent;
   border-right: 2px solid transparent;
@@ -36,13 +36,13 @@
   transition: transform 0.5s ease-in-out, border-right 0.5s ease, border-top 0.5s ease;
   border-right: 2px solid transparent; 
   border-top: 2px solid transparent;
-  border-left: 3px solid #416576; 
+  border-left: 3px solid white; 
 }
 
  /**ABAJO**/
 #keyla-f .circleB {
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   border-top: 2px solid transparent;
   border-right: 2px solid transparent;
@@ -63,23 +63,24 @@
   transition: transform 0.5s ease-in-out, border-right 0.5s ease, border-top 0.5s ease;
   border-right: 2px solid transparent; 
   border-top: 2px solid transparent;
-  border-bottom: 3px solid #416576;
+  border-bottom: 3px solid white;
 }
 
 /**BOX**/
 #keyla-f .box {
   width: 320px;
   height: 200px;
-  background: rgba(65,101,118,2);
+  background-color: rgba(065,101,118,1);
   transform: translateX(-415px);
   padding-right: 120px;
-  margin-top: -1px;
   transition: all 1s ease-in-out;
 }
 #keyla-f:hover .box {
+  height: 40px;
+  margin-top: 145px;
   transform: translateX(0px);
   transition: all 0.7s ease-in-out;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 /*TEXTO*/
@@ -88,7 +89,8 @@
   font-family: 'Fjalla One', sans-serif;
   text-align: justify;
   margin: 0 auto;
-  padding-top: 152px;
+  padding-bottom: 1px;
+  padding-top: 5px;
   padding-left: 20px;
   padding-right: 50px;
   color: rgba(0,0,0,1);
@@ -97,7 +99,7 @@
 }
 
 /*LINEA*/
-#keyla-f .line {
+#keyla-f .line1 {
   width: 200px; 
   height: 1px; 
   border-bottom: 1px solid white;
@@ -105,14 +107,13 @@
   margin-left: 50px;
 }
 
-
 /*PRUEBA LETRAS*/
 #keyla-f span {
   font-weight: bolder;
   color: rgba(250,250,250,1);
-  text-shadow: 1px 1px 0px blue;
-  font-family: 'Fjalla One', sans-serif;
+  text-shadow: 1px 1px 2px black;
   -webkit-text-stroke: 0.5px black;
+  font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase; 
   letter-spacing: 2px;
 }
