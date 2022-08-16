@@ -25,6 +25,7 @@
 /*TEXTO*/
 .artairtxt{
   width: 310px;
+  top: 1750px;
   margin: 15px;
   position: absolute;
   font-size: 9px;
@@ -37,6 +38,7 @@
 }
 
 #artairf:hover .artairtxt{
+  top: 1740px;
   transition: all 0.7s ease-in-out;
   color: #dadada;
   opacity: 1;
