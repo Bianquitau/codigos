@@ -31,15 +31,9 @@
   font-size: 9px;
   font-family: calibri;
   text-align: center;
+  color: #dadada;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: all 0.7s ease-in-out;
-  opacity: 0;
+  opacity: 1;
 }
 
-#artairf:hover .artairtxt{
-  top: 1740px;
-  transition: all 0.7s ease-in-out;
-  color: #dadada;
-  opacity: 1;
-  }
