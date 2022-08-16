@@ -1,0 +1,45 @@
+/*CAJITA*/
+#artairf{
+  width: 340px;
+  height: 215px;
+  border: 12px solid #1a1a1a;
+  outline: 2px solid #045B62;
+  outline-offset: -10px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.artairimg {
+  width: 340px; 
+  height: 235px; 
+  transition: all 0.5s ease-in-out; 
+  transform: translateY(-2px);
+}
+
+#artairf:hover .artairimg {
+  transition: all 0.5s ease-in-out; 
+  filter: brightness(55%) grayscale(45%);
+  transform: translateY(-10px);
+}
+
+/*TEXTO*/
+.artairtxt{
+  width: 310px;
+  top: 190px;
+  margin: 15px;
+  position: absolute;
+  font-size: 9px;
+  font-family: calibri;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
+}
+
+#artairf:hover .artairtxt{
+  top: 190px;
+  transition: all 0.7s ease-in-out;
+  color: #dadada;
+  opacity: 1;
+  }
