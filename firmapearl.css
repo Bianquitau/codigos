@@ -1,0 +1,119 @@
+#pearl-f {
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  background: #111;
+  justify-content: center;
+  align-items: center;
+  border: 11px solid #0a0a0a;
+  position: relative;
+  overflow: hidden;
+  outline-offset: -7px; 
+  outline: 2px solid #857c3e;
+}
+
+#pearl-f .pearlimg {
+  width: 300px; 
+  height: 200px; 
+  transition: all 0.3s ease-in-out; 
+  transform: translateY(0px);
+}
+
+#pearl-f:hover .pearlimg {
+  transition: all 0.5s ease-in-out; 
+  filter: brightness(55%) grayscale(45%);
+}
+
+
+ /**IZQUIERDA**/
+#pearl-f .circleL {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 19px;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  transition: all 0.5s ease-in-out;
+  border-left: 2px solid transparent; 
+}
+
+#pearl-f:hover .circleL {
+  transform: rotate(130deg);
+  transition: transform 0.5s ease-in-out, border-right 0.5s ease, border-top 0.5s ease;
+  border-right: 2px solid transparent; 
+  border-top: 2px solid transparent;
+  border-left: 3px solid white; 
+}
+
+ /**ABAJO**/
+#pearl-f .circleB {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 20.2px;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+#pearl-f:hover .circleB {
+  transform: rotate(-52deg);
+  transition: transform 0.5s ease-in-out, border-right 0.5s ease, border-top 0.5s ease;
+  border-right: 2px solid transparent; 
+  border-top: 2px solid transparent;
+  border-bottom: 3px solid white;
+}
+
+/*TEXTO*/
+#pearl-f .text {
+  width: 250px;
+  top: 100px;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 15px;
+  font-size: 7px;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: justify;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
+  color: rgba(173, 173, 173, 1);
+}
+
+#pearl-f:hover .text {
+  height: 40px;
+  transition: all 0.7s ease-in-out;
+  opacity: 1;
+  color: #dadada;
+}
+
+
+/*PRUEBA LETRAS*/
+#pearl-f span {
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px 2px yellow;
+  -webkit-text-stroke: 0.5px #857c3e;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  transition: all 1s ease-in-out;
+}
+
