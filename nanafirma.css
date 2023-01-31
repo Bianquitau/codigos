@@ -1,0 +1,62 @@
+/*CAJITA*/
+#nana {
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  border: 8px solid black;
+  outline: 3px double #8C8635;
+  outline-offset: -5px;
+}
+
+.nanaimg {
+  width: 400px;
+  height: 200px;
+  transition: all 1s ease-in-out; 
+  transform: translateX(-2px);
+}
+
+#nana:hover .nanaimg{
+  transition: all 1s ease-in-out; 
+  filter: brightness(55%) grayscale(45%);
+  transform: translateX(-50px);
+}
+
+.txt {
+  width: 515px;
+  bottom: 20px;
+  margin: 5px;
+  position: absolute;
+  font-size: 18px;
+  opacity: 0;
+  font-family: calibri;
+  text-aling: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 1s ease-in-out;
+  backgrounda-color: rgba(16, 44, 84, 0,8);
+}
+#nana:hover .txt{
+  bottom: 90px;
+  transition: all 1s ease-in-out;
+  opacity: 1;
+  color: #ccc;
+  text-shadow: 2px 2px 0px #8C8635;
+}
+
+#nana i{
+  position: relative;
+  transition: all 1s ease-in-out;
+  top: -165px;
+  right: -85px;
+  margin: 55px 130px;
+  z-index: 1;
+  font-size: 60px;
+  color: #8C8635;
+  opacity: 0;
+  text-shadow: 4px 5px 0px black;
+}
+#nana:hover i{
+  transition: all 1s ease-in-out;
+  opacity: 0.5;
+}
