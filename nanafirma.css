@@ -36,7 +36,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   transition: all 1s ease-in-out;
-  backgrounda-color: rgba(16, 44, 84, 0,8);
+  background-color: rgba(16, 44, 84, 0,8);
 }
 #nana:hover .nanatxt{
   bottom: 90px;
