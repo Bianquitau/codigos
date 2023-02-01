@@ -22,7 +22,7 @@
   transform: translateX(-50px);
 }
 
-.txt {
+.nanatxt {
   width: 515px;
   bottom: 20px;
   top: 180px;
@@ -38,7 +38,7 @@
   transition: all 1s ease-in-out;
   backgrounda-color: rgba(16, 44, 84, 0,8);
 }
-#nana:hover .txt{
+#nana:hover .nanatxt{
   bottom: 90px;
   transition: all 1s ease-in-out;
   opacity: 1;
