@@ -39,7 +39,7 @@
   background-color: rgba(16, 44, 84, 0.8);
 }
 #nana:hover .nanatxt {
-  bottom: 40px;
+  bottom: 50px;
   transition: all 1s ease-in-out;
   opacity: 1;
   color: #ccc;
@@ -59,23 +59,6 @@
   text-shadow: 4px 5px 0px black;
 }
 #nana:hover i{
-  transition: all 1s ease-in-out;
-  opacity: 0.5;
-}
-.nani {
-  position: relative;
-  transition: all 1s ease-in-out;
-  top: -165px;
-  right: -85px;
-  margin: 55px 130px;
-  z-index: 1;
-  font-size: 60px;
-  color: #8C8635; 
-  opacity: 0;
-  text-shadow: 4px 5px 0px black;
-}
-
-#nana:hover .nani{
   transition: all 1s ease-in-out;
   opacity: 0.5;
 }
