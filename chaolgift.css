@@ -1,0 +1,131 @@
+#chaol {
+  width: 550px;
+  height: 630px;
+  background: #0a0808ce;
+  margin: auto;
+  border: 1px dotted #2b2d2d;
+}
+.chaolphotos {
+  padding: 60px;
+  width: 400px;
+  margin: auto;
+}
+
+.chaolphotos img {
+  width: 110px;
+  height: 110px;
+  border: 1px solid #2b2d2d;
+  margin: 10px;
+  filter: grayscale(40%);
+  background-blend-mode: multiply;
+  background-color: #0e0e0eab;
+}
+
+.chaoltitup {
+  width: 490px;
+  padding: 50px 30px 50px;
+  height: 110px;
+  background-blend-mode: multiply;
+  background-color: #8818182a;
+  color: #bababa;
+  font-family: 'Charlotte Southern';
+  font-size: 50px;
+  line-height: 100%;
+  text-transform: lowercase;
+}
+
+.chaoltitdown {
+  width: 550px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -1px;
+  border-bottom: 1px dotted #2b2d2d;
+  border-left: 1px dotted #2b2d2d;
+  border-right: 1px dotted #2b2d2d;
+  background-color: #0e0e0e;
+}
+
+.chaolquote {
+  padding: 0px 25px;
+  height: 37px;
+  font-family: 'Arial';
+  font-size: 10px;
+  text-transform: none;
+  color:#050b04df ;
+}
+
+.chaolquote div {
+  width: 205px;
+  height: 37px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.chaolquote n {
+  font-size: 12px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 4px;
+  display: block;
+  position: absolute;
+  color: #adadad;
+  margin-top:5px;
+}
+
+.chaolquote span {
+  font-size: 20px;
+  color: rgba(56, 110, 50, 0.502);
+}
+
+.textc {
+  font-size: 12px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 4px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  color: #adadad;
+  margin-top:-50px;
+  margin-left: 115px;
+}
+
+/*CHAOL KOVACS*/
+.nombre {
+  width: 450px;
+  height: 40px;
+  position: absolute;
+  text-align: left;
+  margin-top: -10px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Open Sans';
+  line-height: 40px;
+  padding: 20px 10px;
+  letter-spacing: 30px;
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #adadad;
+}
+
+.apellido {
+  height: 40px;
+  width: 450px;
+  position: absolute;
+  text-align: right;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Open Sans';
+  font-style: italic;
+  color: transparent;
+  margin-top: -417px;
+  margin-left: 110px;
+  -webkit-text-stroke-color: rgba(56, 110, 50, 0.8);
+  -webkit-text-stroke-width: 2px;
+  letter-spacing: 20px;
+  text-shadow: 1px 2px 0px rgba(56,	110,	50, 0.4);
+}
