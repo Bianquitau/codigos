@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.hover {
+.hover3 {
 width: 300px;
 height: 180px;
 margin-left: 130px;
@@ -20,7 +20,7 @@ background-color: rgb(191, 165, 124, 1);
 transform: translateX(-415px);
 }
 
-.blockfirm:hover .hover {
+.blockfirm:hover .hover3 {
   margin-left: 415px;
   opacity: 1;
   blackground-color: rgb(191, 165, 124, 0.3);
