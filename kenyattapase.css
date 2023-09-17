@@ -19,6 +19,23 @@
   margin-bottom: 10px;
 }
 
+.kenytit {
+  padding: 10px 20px 0px 0px;
+  font: 700 30px arial;
+  letter-spacing: 3px;
+  color: #dddd;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.kenytit b {
+  font: 700 30px arial;
+  color: #595e07;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+}
+
 /*Datitos & cuadros arriba*/
 .datis {
   width: 620px;
