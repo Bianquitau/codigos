@@ -1,0 +1,62 @@
+#kenybaul{
+  max-width: 620px;
+  min-height: 250px;
+  padding; 10px;
+  background: black;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*Imagen*/
+.img {
+  width: 620px;
+  height: 250px;
+  background: url("https://i.imgur.com/rRUHGyo.png");
+  filter: brightness(70%) grayscale(15%);
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Datitos & cuadros arriba*/
+.datis {
+  width: 620px;
+  padding: 5px 20px;
+  position: relative;
+}
+
+.datis .datisr {
+  width: 170px;
+  vertical-aling: top;
+  padding: 10px 10px;
+  display: inline-block;
+  background-color: rgba(89,94,7,0.7);
+  margin-bottom: 10px;
+  opacity: 1;
+  transition: 2s;
+}
+
+.datisr:hover {
+opacity: 0.5;
+transition: 2s;
+}
+
+/*letras*/
+.datis .tit {
+  font-family: arial;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+  color: #bbb;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+.datis i {
+  font-family: garamond;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}
