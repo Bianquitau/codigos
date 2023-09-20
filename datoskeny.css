@@ -1,0 +1,93 @@
+.fondoken {
+  max-width: 770px; 
+  width: 100%; 
+  height: 610px;
+  font-family: 'Karla'; 
+  font-size: 13px; 
+  text-align: justify; 
+  color: rgba(89,94,7,0.7); 
+  background: black; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.kentiti {
+  font-family: 'Patheos'; 
+  text-align: right; 
+  font-size: 80px; 
+  color: transparent; 
+  -webkit-text-stroke: 1px rgb(100, 100, 68, 1);
+  padding: 5px;
+}
+
+.kentiti b{
+  color: rgba(89,94,7,0.7);
+  text-decoration: underline;
+}
+
+/*Imagen*/
+.img {
+  width: 350px;
+  height: 450px;
+  background: url("https://i.imgur.com/rOpDWho.png");
+  filter: brightness(70%) grayscale(50%);
+  overflow: hidden; 
+  display: inline-block;
+}
+
+.imgh {
+  width: 350px;
+  height: 450px;
+  opacity: 0;
+  transition: 1s;
+  background-color: rgba(100,100,37,0.5); 
+  overflow: hidden; 
+  display: inline-block;
+}
+
+
+.img:hover .imgh{
+  opacity: 1;
+  transition: 1s;
+}
+
+/*Información*/
+.kenny {
+  max-width: 350px; 
+  width: 100%; 
+  display: flex; 
+  align-items: center;
+  margin-left: 380px;
+  margin-top: -85px;
+}
+
+.kenny1 {
+  font-family: 'Patheos'; 
+  background: rgba(89,94,7,0.1);
+  padding: 5px;
+  font-family: 'Inconsolata'; 
+  color: rgba(100,100,34,1); 
+  font-weight: bold;
+  font-size: 13px; 
+  letter-spacing: 2px;
+}
+
+.kenny1 i{
+font-size: 14px;
+-webkit-text-stroke: 1px #161616;
+}
+
+.kenny2 {
+  font-family: 'Inconsolata'; 
+  color: rgb(100, 100, 68, 1); 
+  font-size: 12px; 
+  margin-left: 5px;
+  letter-spacing: 5px;
+}
+
+.kenny2 b {
+  font-family: 'Inconsolata'; 
+  color: white; 
+  font-size: 15px; 
+  margin-left: 5px;
+}
