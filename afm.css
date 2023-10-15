@@ -2,7 +2,7 @@
   width: 300px;
   height: 200px;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: visible;
   border-right: 7px solid #1a1a1a;
   border-top: 7px solid #1a1a1a;
   border-bottom: 7px solid #1a1a1a;
@@ -10,6 +10,19 @@
   outline-offset: -3px;
   outline: 1px solid #9C8B50;
   position: relative;
+  z-index: 1;
+ }
+
+.afm-i{
+  width: 300px;
+  height: 200px;
+  background: rgb(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+ #afm:hover .afm-i{
+  filter: grayscale(50%);
+  transition: 1s;
  }
 
 .afm-b {
@@ -39,21 +52,22 @@
   left: -1px;
   outline-offset: -3px;
   outline: 1px solid #9C8B50;
+  filter: blur(0px);
 }
  
 .afm-h {
-background: rgb(156, 139, 80, 0.3);
-width: 265px;
+background: rgb(26, 26, 26, 0.8);
+width: 261px;
 left: 0px;
 height: 181px;
 position: absolute;
 mix-blend-mode: multiply; 
-z-index: 4;
 transition: 1.5s;
 }
 
 #afm:hover .afm-h{
   transition-delay: 1.5s;
+  filter: blur(0px);
 }
 
 .afm-ti {
@@ -84,7 +98,7 @@ transition: 1.5s;
 .afm-txt{
 font-family: 'Courier New', Courier, monospace; 
 text-transform: uppercase; 
-color: whitesmoke; 
+color: #cacaca; 
 font-size: 8px; 
 line-height: 10px;
 position: relative; 
