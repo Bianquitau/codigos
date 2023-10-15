@@ -1,0 +1,107 @@
+#afm {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-right: 7px solid #1a1a1a;
+  border-top: 7px solid #1a1a1a;
+  border-bottom: 7px solid #1a1a1a;
+  border-left: 7px solid #1a1a1a;
+  outline-offset: -3px;
+  outline: 1px solid #9C8B50;
+  position: relative;
+ }
+
+.afm-b {
+  border-right: 20px solid #1a1a1a;
+  border-top: 10px solid #1a1a1a;
+  border-bottom: 10px solid #1a1a1a;
+  border-left: 20px solid #1a1a1a;
+  outline-offset: -3px;
+  outline: 1px solid rgb(156, 139, 80, 0);
+  width: 247px;
+  height: 181px;  
+  display: block;
+  position: relative;
+  bottom: 20px;
+  top: 0px;
+  margin: 0;
+  left: -300px;
+  background-attachment: fixed;
+  padding: 0px 7px!important;
+  transition: 2s;
+  opacity: 1;
+}
+
+#afm:hover .afm-b {
+  opacity: 1;
+  transition: 1.5s;
+  left: -1px;
+  outline-offset: -3px;
+  outline: 1px solid #9C8B50;
+}
+ 
+.afm-h {
+background: rgb(156, 139, 80, 0.3);
+width: 265px;
+left: 0px;
+height: 181px;
+position: absolute;
+mix-blend-mode: multiply; 
+z-index: 4;
+transition: 1.5s;
+}
+
+#afm:hover .afm-h{
+  transition-delay: 1.5s;
+}
+
+.afm-ti {
+  position: relative;
+  width: 280px;
+  height: 80px; 
+  margin: 0 auto;
+  transform: translateY(0px);
+  opacity: 0;
+  transition: 1.5s;
+  position: relative;
+  top: 75px;
+  left: 5px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase; 
+  color: transparent;
+  font-size: 25px; 
+  -webkit-text-stroke: 2px #9C8B50;
+}
+
+#afm:hover .afm-ti{
+  opacity: 1;
+  transform: translateY(-205px);
+  transition-delay: 1s;
+}
+
+.afm-txt{
+font-family: 'Courier New', Courier, monospace; 
+text-transform: uppercase; 
+color: whitesmoke; 
+font-size: 8px; 
+line-height: 10px;
+position: relative; 
+text-align: justify;
+top:30px; 
+left: 24px;
+width: 250px;
+  height: 80px; 
+  padding-top: 5px;
+letter-spacing: 0.5px;
+border-top: 1px solid #9C8B50;
+ transform: translateY(0px);
+  opacity: 1;
+  transition: 1.5s;}
+
+#afm:hover .afm-txt{
+  opacity: 1;
+  transform: translateY(-205px);
+  transition-delay: 1s;
+}
