@@ -32,7 +32,7 @@
    font-size: 30px;
    text-transform: uppercase;
    position: relative;
-   margin-top: -60px;
+   margin-top: -45px;
    margin-right: 1px;
    text-align: right;
    color: transparent;
@@ -55,7 +55,7 @@
   font-size: 8px; 
   position: relative; 
   text-align: justify; 
-  margin-top: -33px;
+  margin-top: -20px;
   margin-left: -200px;
   z-index: 1; 
   letter-spacing: 0.5px;
@@ -64,7 +64,7 @@
 }
 
 #a-base:hover .a-textt{
-  margin-top: -33px;
+  margin-top: -20px;
   margin-left: 5px;
   transition: all 1s ease-in-out; 
 }
