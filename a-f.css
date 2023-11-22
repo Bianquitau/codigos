@@ -1,6 +1,6 @@
 #a-base {
-  width: 250px;
-  height: 200px;
+  width: 280px;
+  height: 260px;
   overflow: hidden;
   margin: 0 auto;
   border: 10px solid rgb(29, 29, 29);
@@ -16,8 +16,8 @@
    }
 
 .a-img{
-  width: 260px;
-  height: 220px;
+  width: 280px;
+  height: 175px;
   transition: all 1s ease-in-out; 
   transform: translateY(-2px);
 }
@@ -33,7 +33,7 @@
    text-transform: uppercase;
    position: relative;
    margin-top: -45px;
-   margin-right: 1px;
+   margin-right: 5px;
    text-align: right;
    color: transparent;
    -webkit-text-stroke-width: 1px;
@@ -48,7 +48,7 @@
 }
 
 .a-textt {
-  width: 170px;
+  width: 195px;
   font-family: monospace; 
   text-transform: uppercase; 
   color: whitesmoke; 
