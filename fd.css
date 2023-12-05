@@ -62,7 +62,7 @@
 
 #fd:hover .fd-ti{
   opacity: 1;
-  transform: translateY(-95px);
+  transform: translateY(-85px);
   transition-delay: 1s;
 }
 
@@ -80,7 +80,6 @@ width: 240px;
   height: 85px; 
   padding-top: 5px;
 letter-spacing: 0.5px;
-border-top: 1px solid rgb(145, 92, 71);
  transform: translateY(0px);
   opacity: 1;
   transition: 1s;
@@ -88,6 +87,6 @@ border-top: 1px solid rgb(145, 92, 71);
 
 #fd:hover .fd-txt{
   opacity: 1;
-  transform: translateY(-74px);
+  transform: translateY(-66px);
   transition-delay: 1.5s;
 }
