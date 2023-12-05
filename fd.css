@@ -62,7 +62,7 @@
 
 #fd:hover .fd-ti{
   opacity: 1;
-  transform: translateY(-120px);
+  transform: translateY(-80px);
   transition-delay: 1s;
 }
 
