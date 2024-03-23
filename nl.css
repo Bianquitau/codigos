@@ -1,0 +1,37 @@
+.feh{
+  width: 300px;
+  height: 170px;
+  margin-top: -60px;
+  opacity: 0;
+  transition: 2s;
+  z-index: 1;
+}
+
+#fe:hover .feh{
+  width: 300px;
+  height: 170px;
+  margin-top: -60px;
+  background-image: url("https://64.media.tumblr.com/6fa278abbc8c016b6e918586cd946c3c/850fcb8c09eef20a-c0/s1280x1920/87c8e2cf3a87df4c815674d1a8eee27e0150b977.gifv");
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 1.5s;
+  z-index: 1;
+}
+
+.fe-text{
+ width: 120px; 
+ height: 60px;
+ font-family: calibri; 
+ color: white; 
+ font-size: 9px; 
+ text-align: center; 
+ font-style: italic; 
+ line-height: 10px; 
+ letter-spacing: 2px; 
+ text-transform: lowercase; 
+ position: relative; 
+ left: 90px; 
+ top: 125px;
+ z-index: 2;
+}
+		
