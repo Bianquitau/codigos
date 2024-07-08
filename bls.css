@@ -102,6 +102,7 @@ transition: 1s;
 
 .bls-txt span{
   background-color: rgba(138, 190, 96, 1);
+  color: black;
 }
 
 .bls-ti {
