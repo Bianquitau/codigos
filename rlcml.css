@@ -86,8 +86,8 @@ transition: all 0.8s ease-in-out;
 }
 
 .rlcmldnq1{
-  width: 140px; 
-  height: 110px;
+  width: 170px; 
+  height: 140px;
   transition: all ease-in-out 1s; 
   position: absolute; 
   left: 15px; 
@@ -124,6 +124,6 @@ display:block;
 
 .rlcmldnq1 b{color: #4D4187; font-weight: 500;}
 
-.rlcmldnq1 i{font-size: 28px; color: transparent;text-shadow: 2px 2px 20px #4D4187;-webkit-text-stroke: 1px #ababab;opacity: .8;}
+.rlcmldnq1 i{font-size: 30px; color: transparent;text-shadow: 2px 2px 20px #4D4187;-webkit-text-stroke: 1px #ababab;opacity: .8;}
 
 .rlcmldnq1 span{width: 1px; height: 40px; background: #4D4187; transform:rotate(20deg);}
