@@ -87,11 +87,11 @@ transition: all 0.8s ease-in-out;
 }
 
 .rlcmldnq1{
-  width: 160px; 
+  width: 180px; 
   height: 140px;
   transition: all ease-in-out 1s; 
   position: absolute; 
-  left: 10px; 
+  left: 2px; 
   top: 15px;
   opacity: 0; 
   display: flex;
