@@ -65,17 +65,17 @@ transition: all 0.8s ease-in-out;
   transition-delay: 0.7s;}
 
 .rlcmlsigov2{
-  width: 300px;
+  width: 150px;
   height: 170px;
   background: rgba(0,0,0,0.7);
   position: absolute;
   top: 0px;
-  left: -300px;
+  left: -150px;
   transition: all ease-in-out 1s;
   transition-delay: 0.7s;}
 
 .rlcml:hover .rlcmlsigov2{
-  left: -150px;
+  left: 0px;
   transition: all ease-in-out 1s;
   transition-delay: 0.8s;
 }
