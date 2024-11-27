@@ -91,7 +91,7 @@ transition: all 0.8s ease-in-out;
   height: 140px;
   transition: all ease-in-out 1s; 
   position: absolute; 
-  left: 2px; 
+  left: 6px; 
   top: 15px;
   opacity: 0; 
   display: flex;
